@@ -1,5 +1,5 @@
 ---
-name: project-report-template-word
+name: lsh-project-report-template-word
 description: 按用户的《项目报告模板》固定格式生成 Word (.docx) 项目报告/测试报告/技术报告。凡用户要求"写项目报告""生成 word/docx 报告""按模板格式出报告""写测试报告/技术报告/结题报告"，或要求报告格式为黑体标题、宋体+Times New Roman 正文、三线表、图表题注、图表目录、罗马/阿拉伯分节页码时，必须使用本技能——即使用户没有明说"模板"两个字。
 ---
 

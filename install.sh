@@ -3,7 +3,7 @@
 set -euo pipefail
 
 src="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-dest="$HOME/.zcode/skills/project-report-template-word"
+dest="$HOME/.zcode/skills/lsh-project-report-template-word"
 
 mkdir -p "$(dirname "$dest")"
 rm -rf "$dest"

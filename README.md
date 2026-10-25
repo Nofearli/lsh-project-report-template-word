@@ -1,4 +1,4 @@
-# project-report-template-word
+# lsh-project-report-template-word
 
 **ZCode 技能：按固定格式模板一键生成 Word 项目报告**
 A ZCode skill that generates Word (.docx) project reports in a fixed corporate template.
@@ -33,11 +33,11 @@ A ZCode skill that generates Word (.docx) project reports in a fixed corporate t
 
 ```bash
 # 方式一：安装到用户级技能目录（所有工作区可用）
-git clone https://github.com/Nofearli/project-report-template-word.git
-cd project-report-template-word && ./install.sh        # Windows: powershell -File install.ps1
+git clone https://github.com/Nofearli/lsh-project-report-template-word.git
+cd lsh-project-report-template-word && ./install.sh        # Windows: powershell -File install.ps1
 
 # 方式二：仅当前工作区可用
-# 把整个文件夹复制到 <工作区>/.zcode/skills/project-report-template-word
+# 把整个文件夹复制到 <工作区>/.zcode/skills/lsh-project-report-template-word
 ```
 
 ## 使用
@@ -71,7 +71,7 @@ r.save("报告.docx")
 ## 目录结构
 
 ```
-project-report-template-word/
+lsh-project-report-template-word/
 ├── SKILL.md                  # 技能入口：触发条件、工作流、API 速查
 ├── references/
 │   └── format-spec.md        # 完整格式规范（样式/分节/域代码）

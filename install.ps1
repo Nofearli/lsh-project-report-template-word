@@ -2,7 +2,7 @@
 $ErrorActionPreference = "Stop"
 
 $src  = $PSScriptRoot
-$dest = Join-Path $env:USERPROFILE ".zcode\skills\project-report-template-word"
+$dest = Join-Path $env:USERPROFILE ".zcode\skills\lsh-project-report-template-word"
 
 New-Item -ItemType Directory -Force -Path (Split-Path $dest) | Out-Null
 if (Test-Path $dest) { Remove-Item -Recurse -Force $dest }
