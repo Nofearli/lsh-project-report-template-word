@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Word 锁文件 / 临时文件
+~$*.docx
+.~*.docx#
+
+# 系统杂项
+Thumbs.db
+.DS_Store
